@@ -36,7 +36,7 @@ let questions = [
 		correctAnswer: "JavaScript"
 	},
 	{
-		question: "Что за функция в css размывает фон?",
+		question: "Какая функция в css размывает фон?",
 		options: ["Toggle", "Blur", "Calc", "Rgba"],
 		correctAnswer: "Blur"
 	},
