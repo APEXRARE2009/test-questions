@@ -1,6 +1,9 @@
 let attemptNum = document.querySelector(".hero__content-block-before-attempt-span");
 let questionTxt = document.querySelector(".hero__content-block-after-question");
 let answersBlock = document.querySelector(".hero__content-block-after-answers");
+let beforeBlock = document.querySelector(".hero__content-block-before");
+let afterBlock = document.querySelector(".hero__content-block-after");
+let heroBlock = document.querySelector(".hero__content-block");
 
 let blockCheckDevice = document.querySelector(".checking-device");
 let blockCheckDeviceContent = document.querySelector(".checking-device-content");
@@ -88,9 +91,12 @@ answersBlock.addEventListener("click", (event) => {
 
 function dislpaResult() {
 	setTimeout(() => {
-		questionTxt.style.display = "none";
-		answersBlock.style.display = "none";
-	}, 1000);
+		afterBlock.style.display = "none";
+	}, 1500);
+	setTimeout(() => {
+		afterBlock.classList.add("none-height")
+		heroBlock.classList.add("none-gap")
+	}, 400);
 	questionTxt.classList.add("close-block")
 	answersBlock.classList.add("close-block")
 }

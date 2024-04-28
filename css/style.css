@@ -232,6 +232,18 @@ body {
   transition: 1s;
 }
 
+.none-gap {
+  gap: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.none-height {
+  height: 0vw;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 .checking-device {
   width: 100vw;
   height: 100vh;

@@ -149,6 +149,16 @@ body {
 	transition: 1s;
 }
 
+.none-gap {
+	gap: 0;
+	transition: 1s;
+}
+
+.none-height {
+	height: 0vw;
+	transition: 1s;
+}
+
 .checking-device {
 	width: 100vw;
 	height: 100vh;
