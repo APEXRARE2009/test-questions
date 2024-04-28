@@ -239,7 +239,7 @@ body {
 }
 
 .none-height {
-  height: 0vw;
+  margin: 0 0 -10.6vw 0;
   -webkit-transition: 1s;
   transition: 1s;
 }
