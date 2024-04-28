@@ -46,9 +46,9 @@ let questions = [
 		correctAnswer: "Pointer"
 	},
 	{
-		question: "4Какой язык програмирования используеться для написания frontend?",
-		options: ["JavaScript", "Python", "PHP", "C++"],
-		correctAnswer: "JavaScript"
+		question: "Какой из следующих тегов не является примером семантической разметки?",
+		options: ["Header", "Footer", "Div", "Main"],
+		correctAnswer: "Div"
 	}
 ]
 
