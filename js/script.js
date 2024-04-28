@@ -1,7 +1,6 @@
 let attemptNum = document.querySelector(".hero__content-block-before-attempt-span");
 let questionTxt = document.querySelector(".hero__content-block-after-question");
 let answersBlock = document.querySelector(".hero__content-block-after-answers");
-let beforeBlock = document.querySelector(".hero__content-block-before");
 let afterBlock = document.querySelector(".hero__content-block-after");
 let heroBlock = document.querySelector(".hero__content-block");
 
