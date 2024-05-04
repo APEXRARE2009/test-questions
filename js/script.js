@@ -83,12 +83,12 @@ answersBlock.addEventListener("click", (event) => {
 		if (currentQuestion < questions.length) {
 			displayQuestion();
 		} else {
-			dislpaResult();
+			dislpayResult();
 		}
 	}
 })
 
-function dislpaResult() {
+function dislpayResult() {
 	setTimeout(() => {
 		afterBlock.style.display = "none";
 	}, 1500);
