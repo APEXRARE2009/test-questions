@@ -74,7 +74,7 @@ function displayQuestion() {
 answersBlock.addEventListener("click", (event) => {
 	let targetBtn = event.target;
 	if (targetBtn.classList.contains("hero__content-block-after-answers-btn")) {
-		targetBtnTxt = event.target.textContent;
+		let targetBtnTxt = event.target.textContent;
 		if (targetBtnTxt == questions[currentQuestion].correctAnswer) {
 			currentAnswers++;
 			attemptNum.textContent = currentAnswers;
@@ -83,12 +83,12 @@ answersBlock.addEventListener("click", (event) => {
 		if (currentQuestion < questions.length) {
 			displayQuestion();
 		} else {
-			displayResult();
+			dislpaResult();
 		}
 	}
 })
 
-function displayResult() {
+function dislpaResult() {
 	setTimeout(() => {
 		afterBlock.style.display = "none";
 	}, 1500);
